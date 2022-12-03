@@ -1,20 +1,19 @@
 const projectsData = [
-  {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
-  },
-  {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
-  },
+    {
+        title: 'Chek Craetive',
+        description: `The Web Studio Without Limits. Chek Creative replaces the unreliable 
+        developer in your network with a flat recurring fee. We promise to exceed your expectations 
+        with our agility, performance, and service.`,
+        imgSrc: '/static/images/google.png',
+        href: 'https://chekcreative.com',
+    },
+    {
+        title: 'EventBook',
+        description: `The Next Chapter in Event Management Software. Manage and book events 
+        from inquiry through invoicing while automating and growing your business.`,
+        imgSrc: '/static/images/time-machine.jpg',
+        href: 'https://eventbook.so',
+    },
 ]
 
 export default projectsData

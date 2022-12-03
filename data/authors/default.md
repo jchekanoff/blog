@@ -1,16 +1,26 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Joseph Chekanoff
+avatar: /static/images/joe-web.jpg
+occupation: Founder
+company: Chek Creative
+email: joe@chek.co
+twitter: https://twitter.com/jchekanoff
+linkedin: https://www.linkedin.com/in/jchekanoff
+github: https://github.com/jchekanoff
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Joe is the CEO of [Chek Creative](https://chekcreative.com),
+a Web Studio Without Limits. He leads a small, dedicated
+web and app development team from his home in 
+Worthington, Ohio.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+His career in development began through the use of many 
+early no-code tools of the web and has evolved to 
+building completely custom WordPress, Webflow, and Shopify 
+websites. Additionally, he and his team build full stack
+applications that use React, Next.js, Swift, PostgreSQL,
+MongoDB, and more.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Joe is a husband, a dog dad, and an amateur tenor and runner. 
+During his free time, he enjoys working on his home with his 
+wife, Erica.
