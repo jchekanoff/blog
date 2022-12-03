@@ -24,6 +24,7 @@ const siteMetadata = {
     },
     analytics: {
         fathomAnalyticsId: "RIRJTYYS",
+        fathomAnalyticsScriptDomain: "whole-diamond.josephchekanoff.com",
         fathomAnalyticsScriptUrl: "https://whole-diamond.josephchekanoff.com/script.js"
     }
 }

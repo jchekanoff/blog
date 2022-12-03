@@ -16,22 +16,20 @@ const Analytics = () => {
     const router = useRouter()
 
     useEffect(() => {
-        if (isProduction && siteMetadata.analytics.fathomAnalyticsId) {
-            Fathom.load(siteMetadata.analytics.fathomAnalyticsId, {
-                includedDomains: [siteMetadata.siteDomain],
-                url: [siteMetadata.analytics.fathomAnalyticsScriptUrl]
-            })
+        Fathom.load(siteMetadata.analytics.fathomAnalyticsId, {
+            includedDomains: [siteMetadata.siteDomain],
+            url: [siteMetadata.analytics.fathomAnalyticsScriptUrl]
+        })
 
-            function onRouteChangeComplete() {
-                Fathom.trackPageview()
-            }
+        function onRouteChangeComplete() {
+            Fathom.trackPageview()
+        }
 
-            router.events.on('routeChangeComplete', onRouteChangeComplete)
+        router.events.on('routeChangeComplete', onRouteChangeComplete)
 
-            // Unassign event listener
-            return () => {
-                router.events.off('routeChangeComplete', onRouteChangeComplete)
-            }
+        // Unassign event listener
+        return () => {
+            router.events.off('routeChangeComplete', onRouteChangeComplete)
         }
     }, []);
 
