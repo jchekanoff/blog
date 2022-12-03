@@ -1,6 +1,6 @@
 const projectsData = [
     {
-        title: 'Chek Craetive',
+        title: 'Chek Creative',
         description: `The Web Studio Without Limits. Chek Creative replaces the unreliable 
         developer in your network with a flat recurring fee. We promise to exceed your expectations 
         with our agility, performance, and service.`,
