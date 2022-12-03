@@ -1,6 +1,8 @@
 import { useEffect } from "react"
 import { useRouter } from "next/router"
 
+import Fathom from "fathom-client";
+
 import GA from './GoogleAnalytics'
 import Plausible from './Plausible'
 import SimpleAnalytics from './SimpleAnalytics'
