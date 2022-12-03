@@ -9,6 +9,7 @@ function FathomScript() {
     useEffect(() => {
         Fathom.load(siteMetadata.analytics.fathomAnalyticsId, {
             includedDomains: [siteMetadata.siteDomain],
+            url: "https://whole-diamond.josephchekanoff.com/script.js"
         })
 
         function onRouteChangeComplete() {
