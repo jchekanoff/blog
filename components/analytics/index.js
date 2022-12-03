@@ -17,7 +17,7 @@ const Analytics = () => {
         if (isProduction && siteMetadata.analytics.fathomAnalyticsId) {
             Fathom.load(siteMetadata.analytics.fathomAnalyticsId, {
                 includedDomains: [siteMetadata.siteDomain],
-                url: "https://whole-diamond.josephchekanoff.com/script.js"
+                url: [siteMetadata.analytics.fathomAnalyticsScriptUrl]
             })
 
             function onRouteChangeComplete() {

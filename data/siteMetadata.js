@@ -23,7 +23,8 @@ const siteMetadata = {
         provider: '',
     },
     analytics: {
-        fathomAnalyticsId: "RIRJTYYS"
+        fathomAnalyticsId: "RIRJTYYS",
+        fathomAnalyticsScriptUrl: "https://whole-diamond.josephchekanoff.com/script.js"
     }
 }
 
